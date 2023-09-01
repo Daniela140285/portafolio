@@ -1,0 +1,108 @@
+@import url('https://fonts.cdnfonts.com/css/julistta');
+/* font-family: 'Julistta', sans-serif; */
+@import url('https://fonts.cdnfonts.com/css/normafixed');
+/* font-family: 'Normafixed Tryout', sans-serif; */   
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap');
+/* font-family: 'Roboto', sans-serif; */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    /* background-color: #e2d9d9; */
+    scroll-behavior: smooth;
+    text-decoration: none;
+    list-style: none;
+}
+@media screen and (min-width:320px){ 
+    
+    .menu_container{
+        display: flex;
+        position: absolute;
+                
+    } 
+    .menu_container li a {
+        color: #fff;
+    }
+    .banner{
+        background-color: #e2d9d9;
+    }
+    .banner_img{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 90%;
+        margin: 0 auto;
+    }
+    .banner_img img{
+        width: 200px;             
+        clip-path: polygon(49% 13%, 90% 32%, 100% 65%, 75% 100%, 25% 100%, 0 65%, 10% 32%);    
+    }  
+    .banner_text{
+        text-align: center;
+        padding: 10px;
+    }  
+    .banner_text h1{
+        font-family: 'Julistta', sans-serif;
+        font-size: 2.5rem;                                               
+    }
+    .banner_text h2{
+        font-size: 1rem;
+        font-family: 'Normafixed Tryout', sans-serif;                                                
+        text-transform: uppercase;                                                
+    }
+    .title{
+        color: #e2d9d9;
+        text-shadow: -3px 2px 3px rgb(99, 67, 161);
+        font-size: 1.8rem;
+        text-align: center;
+
+        /* padding: 2rem 0 2rem 0; */
+    }
+    .subtitle{
+        font-size: 1rem;
+        text-align: center;
+    }
+            /* SOBRE MÍ */
+    .sobremi p{
+        color: #e2d9d9;
+        line-height: 2rem;
+        font-size: 1.2rem;
+        width: 80%;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+    }
+    .sobremi{
+        background-color: rgba(50, 18, 112, 1);
+    }
+            /*SKILLS*/
+    .skills {
+        background-color: rgba(50, 18, 112, 1);
+        color: #e2d9d9;
+    }
+    .skills_container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 20px;
+        width: 80%;
+        margin: 0 auto;          
+        padding: 20px;   
+    }
+    .skills h2{
+        padding: 10px 0 10px 0 ;
+    }
+    .skills_img{
+        width: 5rem;
+        object-fit: contain;
+    }
+        /*PROYECTOS*/
+    .proyecto_img{
+        width: 20rem;
+    }
+}
