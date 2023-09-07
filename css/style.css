@@ -53,7 +53,7 @@
         text-transform: uppercase;
     } 
     .nav-menu li a.active, .nav-menu li a:hover{
-        /* color: rgba(49, 18, 112, 0.5); */
+        color: rgba(163, 138, 212, 0.945);
         transition: .3s;        
     } 
     #check{
