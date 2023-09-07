@@ -196,7 +196,9 @@
         box-shadow: 2px 2px 8px 2px rgba(50,18,112,0.52);
         border-radius: 5px;
     }
+
             /*CONTACTO*/
+
     .contacto{
         background-color: #e2d9d9;
     }
@@ -254,7 +256,9 @@
         z-index: 1;
         width: 1rem;
     }
+
             /*FOOTER*/
+
     .redes{
         background-color: rgba(50, 18, 112, 1);
     }
@@ -334,5 +338,12 @@
     .firma{        
         font-size: 1rem;
     }
+    .fa-brands:hover{
+        transform: scale(1.3);
+        color: rgba(163, 138, 212, 0.945);
+    }
+    .fa-solid:hover{
+        transform: scale(1.3);
+        color: rgba(163, 138, 212, 0.945);
 }
     
