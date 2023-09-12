@@ -189,7 +189,7 @@
         border-radius: 5px;
         padding: 7px 15px;
         cursor: pointer;
-    }
+    }   
     .proyecto_img{
         margin: 20px 0;
         width: 90%;
@@ -345,5 +345,5 @@
     .fa-solid:hover{
         transform: scale(1.3);
         color: rgba(163, 138, 212, 0.945);
-}
-    
+    }
+} 
