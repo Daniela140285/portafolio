@@ -190,9 +190,12 @@
         padding: 7px 15px;
         cursor: pointer;
     }   
-    .proyecto_img{
+    .img_container{
+       width:80%;
+    }
+    .proyecto_img{        
+        max-width: 90%; 
         margin: 20px 0;
-        width: 90%;
         box-shadow: 2px 2px 8px 2px rgba(50,18,112,0.52);
         border-radius: 5px;
     }
@@ -331,6 +334,9 @@
         display: flex;
         align-items: center;
         height: 60vh;
+    }
+    .proyecto_text{
+        width: 50%;
     }
     .btn:hover{
         background-color: rgba(49, 18, 112, 0.884);
